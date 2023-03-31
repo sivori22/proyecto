@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	overflow-x: hidden;
+
+}
+
+.logo {
+	height: 5px;
+	width: 5px;
+	position: absolute;
+}
+
+.nav .links {
+	display: inline;
+	float: right;
+}
+
+.nav .links a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.portada {
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	position: relative;
+}
+
+.portada .texto-inicial {
+	font-family: 'Playfair Display', serif;
+	background: black;
+	color: #ffffff;
+	content: center;
+	width: 12vw;
+	padding: 40px;
+	border-radius: 30px;
+	position: absolute;
+	top: 12%;
+	margin-top: 10%;
+
+	left: calc(60% - 20vw);
+	height: 12vw;
+
+}
+
+.bodi {
+	width: 90%;
+	height: 90%;
+	overflow: hidden;
+	background-color: black;
+
+}
+
+.footer .reservado {
+	padding-top: 0px;
+	margin-top: 0px;
+	color: white;
+
+}
+
+.main {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+}
+
+.info {
+	height: 100vh;
+	width: 100vw;
+	background: url("imagenes/foto.jpg")center center no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	bottom: 0;
+}
+
+.info .data {
+	font-family: 'Playfair Display', serif;
+	background: black;
+	color: #ffffff;
+	content: center;
+	width: 60vw;
+	padding: 60px;
+	border-radius: 30px;
+	position: absolute;
+	top: 20%;
+	left: calc(37% - 20vw);
+	text-align: justify;
+}
+
+.cards-container {
+	text-align: center;
+}
+
+.card {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	vertical-align: top;
+	/* para asegurar que todas las cartas estén alineadas en la parte superior */
+	margin: 0 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+.vinculos {
+	display: inline-block;
+}
+
+h1 {
+	place-content: center;
+}
+
+.merca {
+	background-size: cover;
+	margin: -40px;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 24%;
+	height: 200%;
+	width: 100%;
+	background-color: black;
+	box-sizing: border-box;
+}
+
+.card3 {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	top: 40%;
+	vertical-align: top;
+	/* para asegurar que todas las cartas estén alineadas en la parte superior */
+	margin: 0 10px;
+	background-color: #000000;
+	border: 1px solid #ccc;
+}
+
+.reservado {
+	background-color: #000000;
+	bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
