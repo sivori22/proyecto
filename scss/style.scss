@@ -1,0 +1,145 @@
+@charset "UTF-8"
+
+body {
+  background: url("imagenes/foto.jpg") center center no-repeat
+  margin: 0
+  font-family: 'Oswald', sans-serif
+  padding-top: 60px
+  overflow-y: overlay
+  overflow-y: auto
+  background-size: cover
+}
+
+.bodi {
+  width: 90%
+  height: 90%
+  overflow: hidden
+  background-color: black
+}
+
+.footer {
+  .reservado {
+    padding-top: 0px
+    margin-top: 0px
+    color: white
+  }
+}
+
+.main {
+  position: absolute
+  top: 35%
+  left: 45%
+}
+
+.info {
+  height: 100vh
+  width: 100vw
+  background: url("imagenes/foto.jpg") center center no-repeat
+  background-size: cover
+  position: relative
+
+  .data {
+    font-family: 'Playfair Display', serif
+    background: black
+    color: #ffffff
+    content: center
+    width: 60vw
+    padding: 60px
+    border-radius: 30px
+    position: absolute
+    top: 20%
+    left: calc(37% - 20vw)
+    text-align: justify
+  }
+}
+
+.cards-container {
+  text-align: center
+
+  .card {
+    display: inline-block
+    width: 200px
+    height: 300px
+    vertical-align: top
+    margin: 0 10px
+    background-color: #fff
+    border: 1px solid #ccc
+  }
+}
+
+.vinculos {
+  display: inline-block
+}
+
+h1 {
+  place-content: center
+}
+
+.merca {
+  background: url("imagenes/foto.jpg") center center no-repeat
+  background-size: cover
+  margin: -40px
+  font-family: 'Oswald', sans-serif
+  padding-top: 24%
+  height: 200%
+  width: 100%
+  background-color: black
+  box-sizing: border-box
+
+  .card3 {
+    display: inline-block
+    width: 200px
+    height: 300px
+    top: 40%
+    vertical-align: top
+    margin: 0 10px
+    background-color: #000000
+    border: 1px solid #ccc
+  }
+}
+
+.container {
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+
+  .content {
+    text-align: center
+  }
+
+  .buttons {
+    margin-top: 20px
+
+    .button {
+      display: inline-block
+      padding: 10px 20px
+      background-color: #007bff
+      color: #fff
+      text-decoration: none
+      margin-right: 10px
+
+      &:last-child {
+        margin-right: 0
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fotito {
+    width: 550px
+    height: 250px
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fotito {
+    width: 350px
+    height: 175px
+  }
+}
+
+.button {
+  background-color: #000000
+}
