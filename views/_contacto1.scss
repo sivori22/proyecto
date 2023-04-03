@@ -1,0 +1,43 @@
+#fondo {
+    background: url("imagenes/foto.jpg")center center no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  
+  }
+  
+  #descripcion {
+    resize: none;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  .form-label {
+    color: whitesmoke
+  }
+  
+  .btn {
+    background-color: grey;
+    float: right;
+  }
+  .redes-sociales {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .redes-sociales h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .iconos-redes a {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .iconos-redes img {
+    width: 50px;
+    height: 50px;
+  }
