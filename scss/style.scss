@@ -20,7 +20,7 @@ body {
 .footer {
   .reservado {
     padding-top: 0px
-    margin-top: 0px
+    margin-top{ 0px
     color: white
   }
 }
@@ -145,23 +145,23 @@ h1 {
 }
 // <!--pagina de contacto-->
 #fondo
-background: url("imagenes/foto.jpg") center center no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
+background: url("imagenes/foto.jpg") center center no-repeat
+background-size: cover
+background-position: center
+height: 100vh
 
 #descripcion
-resize: none;
+resize: none
 
 h2
-color: white;
+color: white
 
 .form-label
-color: whitesmoke;
+color: whitesmoke
 
 .btn
-background-color: grey;
-float: right;
+background-color: grey
+float: right
 
 // <!--pagina de informacion-->
 $body-margin: 0;
@@ -668,7 +668,6 @@ h1 {
     .div7 {
         grid-area: 7 / 7 / 11 / 9;
     }    
-    
     .div8 {
         grid-area: auto / auto / auto / auto;
     }
