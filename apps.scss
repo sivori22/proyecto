@@ -1,0 +1,22 @@
+@import 'layout/footer';
+@import 'layout/forms';
+@import 'layout/grids';
+@import 'layout/header';
+@import 'layout/navigation';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/cards';
+
+@import 'views/contato1';
+@import 'views/index';
+@import 'views/informacion';
+@import 'views/juegos';
+@import 'views/mercado';
+
+@import 'utilities/functions';
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
