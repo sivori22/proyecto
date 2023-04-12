@@ -29,6 +29,16 @@ p {
     text-align: justify;
 }
 .container{
+    margin-top:7%;
+    max-width: 650px;
+    max-height: 650px;
+    border-radius:10px;
     background: rgb(65,217,210);
     background: linear-gradient(90deg, rgba(65,217,210,1) 0%, rgba(234,234,235,1) 48%, rgba(192,108,222,1) 100%);
 }
+.reservado{
+    font-size:80%;
+    margin-top:4.5%;
+    text-align:center;
+    color:white;
+ }
